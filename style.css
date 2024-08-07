@@ -5,12 +5,13 @@
 }
 
 body{
-    height: 100vh;
+    height: 200vh;
     margin:0;
     overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    overflow-y:scroll;
 }
 .header{
     display: flex;
@@ -44,7 +45,7 @@ a{
 
 .top-center{
     display: flex;
-    height: 400;
+    height: 500px;
     background-color: #1f2937;
     color: #f9faf8;
     padding: 4rem 15rem;
@@ -65,7 +66,7 @@ a{
     padding-right: 80px;
     justify-content: space-around;
 }
-.left-center h1{
+.left-center > h1{
     font-size: 48px;
     font-weight: bolder;
 }
@@ -99,5 +100,70 @@ button:hover{
     color:#b1b3b8 ;
     background-color: #2358ad ;
 }
+
+.mid-center{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #f9faf8;
+    color: #1f2937 ;
+    padding: 4rem 15rem;
+    justify-content: center;
+}
+
+.mid-center-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mid-center-header > h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.images-placeholder-container{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+.placeholder{
+    height: 200px;
+    width: 200px;
+    outline: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.placeholder > p{
+    flex-wrap: wrap;
+}
+
+.container-placeholder{
+    display: flex;
+    height: 300px;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+    font-size: 20px;
+    gap: 20px;
+   
+}
+
+.low-center{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: #e5e7eb;
+    color: #1f2937 ;
+    padding: 4rem 15rem;
+    justify-content: center;
+}
+.quote{
+    font-size: 36px ;
+    font-weight: lighter;
+}
+
+
 
 
