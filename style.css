@@ -173,5 +173,52 @@ button:hover{
     font-weight: bold;
 }
 
+.lower-center{
+    display: flex;
+    height: 500px;
+    background-color: #f9faf8;
+    color:  #f9faf8 ;
+    padding: 4rem 15rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    display: flex;
+    height: 50%;
+    width:100%    ;
+    background-color: #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.banner > #banner-button{
+    width: 140px;
+    height: 40px;
+    background-color:#3882f6;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: none;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        padding: 4rem 16rem;
+        background-color: #19212c;
+        font-size: 18px;
+        color:#e5e7eb ;
+
+    }
+
 
 
