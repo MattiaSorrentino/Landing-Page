@@ -155,15 +155,23 @@ button:hover{
     flex-direction: column;
     height: 500px;
     background-color: #e5e7eb;
-    color: #1f2937 ;
+    color: #666b72 ;
     padding: 4rem 15rem;
     justify-content: center;
+    
 }
 .quote{
     font-size: 36px ;
     font-weight: lighter;
 }
 
+.signature{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    color: #1f2937;
+    font-weight: bold;
+}
 
 
 
