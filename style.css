@@ -79,7 +79,7 @@ a{
     justify-content: center;
 }
 
-img{
+.right-center > img{
     transform: rotate(270deg);
     border-radius: 5px;
 }
@@ -131,7 +131,12 @@ button:hover{
 .placeholder{
     height: 200px;
     width: 200px;
-    outline: 3px solid #3882f6;
+    outline: 3px solid #19212c;
+    border-radius: 10px;
+}
+
+
+.placeholder > img{
     border-radius: 10px;
 }
 
@@ -157,6 +162,7 @@ button:hover{
     background-color: #e5e7eb;
     color: #666b72 ;
     padding: 4rem 15rem;
+    gap: 16px;
     justify-content: center;
     
 }
@@ -179,7 +185,7 @@ button:hover{
     background-color: #f9faf8;
     color:  #f9faf8 ;
     padding: 4rem 15rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -187,12 +193,11 @@ button:hover{
     display: flex;
     height: 50%;
     width:100%    ;
-    background-color: #3882f6;
+    background-color: #476286;
     border-radius: 10px;
     font-size: 18px;
     justify-content: space-around;
     align-items: center;
-    
     
 }
 
@@ -207,6 +212,13 @@ button:hover{
     border-radius: 10px;
     box-shadow: none;
     }
+
+#banner-button:hover{
+    cursor: pointer;
+    color:#b1b3b8 ;
+    background-color: #2358ad ;
+}
+
 
     footer{
         display: flex;
