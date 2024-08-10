@@ -80,28 +80,13 @@ a{
     justify-content: center;
 }
 
-/*.picture-container{
-    height:300px;
-    margin:10px;
-    position:relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #33334d;
-  }
-
-  img{
-    transform: rotate(90deg);
-  }
-    */
-  
-  h2{
+ 
+  .right-center . h2{
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     font-size: 170px;
-    FONT-we
     margin: 0;
     color: #1f2937;
     padding: auto;
